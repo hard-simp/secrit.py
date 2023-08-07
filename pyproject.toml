@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "secrit"
+version = "0.0.2"
+authors = [
+  { name="Simpthy" },
+]
+description = "A simple library to interact with the 'pass' (password store https://www.passwordstore.org/) generated secrets"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    'Intended Audience :: End Users/Desktop',
+    'Intended Audience :: Developers',
+    'Intended Audience :: System Administrators',
+    "License :: OSI Approved :: MIT License",
+    'Operating System :: MacOS :: MacOS X',
+    'Operating System :: POSIX',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/hard-simp/secrit.py"
+"Bug Tracker" = "https://github.com/hard-simp/secrit.py/issues"

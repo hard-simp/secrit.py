@@ -1,0 +1,41 @@
+#+TITLE: Secrit
+
+* Introduction
+
+Secrit is a simple Python library designed to interact with the 'pass' password store generated keys.
+
+* Installation
+
+First, ensure that you have the `~/.password-store/` directory available as the library uses it as the default storage path.
+
+To install the Secrit library, you can simply use pip:
+
+#+BEGIN_SRC bash
+pip install secrit
+#+END_SRC
+
+* Usage
+
+** Retrieve a Password
+
+To retrieve a decrypted content of a password store entry, use the `get` function:
+
+#+BEGIN_SRC python
+import secrit
+
+# You will be prompted for your master password
+api_key = secrit.get("github.com/api_key")
+#+END_SRC
+
+* Requirements
+
+- Python 3
+- python-gnupg
+
+* Development
+
+To contribute or report issues, please visit the [[https://github.com/hard-simp/secrit.py][GitHub repository]].
+
+* License
+
+MIT

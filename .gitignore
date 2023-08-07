@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+*.pyc
+*.pyo
+*.env
+db.sqlite3
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.pytest_cache
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Misc
+# Thanks Jobs
+.DS_Store
+tmp/
