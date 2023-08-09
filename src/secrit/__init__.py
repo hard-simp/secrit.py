@@ -1,1 +1,1 @@
-from secrit import get
+from main import get
